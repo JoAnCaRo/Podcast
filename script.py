@@ -29,6 +29,20 @@ def select_option():
         select_option()
         
 # Select Nombre
+def select_name():
+    name_prefix = input("Introduce las primeras letras o la primera palabra del nombre del podcast que buscas:\n").lower()
+    found = False
+    for item in data:
+        if item[0].lower().startswith(name_prefix):
+            print(f"Podcast encontrado: {item[0].upper()}")
+            print(f"- Categoría: {item[3]}")
+            print(f"- Temporadas: {item[1]}")
+            print(f"- Valoración: {item[2]}/5")
+            print(f"- Descripción: {item[4]}\n")
+            found = True
+    if not found:
+        print("Podcast no encontrado. Intenta de nuevo.")
+        select_name()
 
 
 def select_tematica():
