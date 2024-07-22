@@ -17,16 +17,19 @@ def select_option():
     option = input(options + "\n")
     
     if option == "n":
-        print("Nombre")
+        select_name()
         
     elif option == "t":
         select_tematica()
           
     elif option == "v":
-        print("Valoración")
+        select_rating()
     else:
         print("Letra inválida! Por favor, introduce 'n','t' o 'v'")
         select_option()
+        
+# Select Nombre
+
 
 def select_tematica():
     tematica_list = [
@@ -76,6 +79,26 @@ def select_tematica():
     else:
         print("Letra inválida! Por favor, introduce alguna de las anteriores")
         select_tematica()
+        
+
+# Select Valoración
+def select_rating():
+    rating = input("Selecciona una valoración del 1 al 5:\n")
+    if rating in ["1", "2", "3", "4", "5"]:
+        found = False
+        for item in data:
+            if item[2] == rating:
+                print(f"Con la valoración {rating} tienes: {item[0].upper()}")
+                print(f"- Temporadas: {item[1]}")
+                print(f"- Valoración: {item[2]}/5")
+                print(f"- Descripción: {item[4]}\n")
+                found = True
+        if not found:
+            print(f"No se encontraron podcasts con la valoración {rating}.")
+    else:
+        print("Valoración inválida! Por favor, introduce un número del 1 al 5.")
+        select_rating()
+
 
 # Inicia el programa
 start_recomendation()
