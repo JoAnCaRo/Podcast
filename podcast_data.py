@@ -1,17 +1,17 @@
 themes = [
-    "Documental", # De Eso No Se Habla / Gabinete de Curiosidades
-    "Noticias", # A Vivir Que Son Dos Días / Saldremos Mejores
-    "Educación", # Aprender de Grandes / Se Habla Código
-    "Política", # Carne Cruda
-    "Humor", # Aquí Hay Dragones / La Ruina / Nadie Sabe Nada
-    "Tecnología", # Código Futuro
-    "Astronomía", # Coffe Break
-    "Cultura", # En La Redacción / Suena Carmena
-    "Filosofía", # Filosofía Aplicada
-    "Historia", # La Escóbula De La Brújula
-    "Naturaleza", # La Senda De Las Plantas Perdidas
-    "Superación Personal", # Mientras Respires Estás a Tiempo
-    "TV & Film" # Todopoderosos
+    "ASTRONOMÍA", # Coffe Break
+    "CULTURA", # En La Redacción / Suena Carmena
+    "DOCUMENTAL", # De Eso No Se Habla / Gabinete de Curiosidades
+    "EDUCACIÓN", # Aprender de Grandes / Se Habla Código
+    "FILOSOFÍA", # Filosofía Aplicada
+    "HISTORIA", # La Escóbula De La Brújula
+    "HUMOR", # Aquí Hay Dragones / La Ruina / Nadie Sabe Nada
+    "NATURALEZA", # La Senda De Las Plantas Perdidas
+    "NOTICIAS", # A Vivir Que Son Dos Días / Saldremos Mejores
+    "POLITICA", # Carne Cruda
+    "SUPERACIÓN PERSONAL", # Mientras Respires Estás a Tiempo
+    "TECNOLOGÁA", # Código Futuro
+    "TV & FILM" # Todopoderosos
 ]
 
 data = [["De Eso No Se Habla", "8 Temporadas", "5", "Documental", "En este podcast hablamos de los silencios que crea esa frase, tanto en nosotras como en la sociedad: de las historias que se esconden detrás de ellos, y de qué pasa cuando los rompemos."],
@@ -31,6 +31,6 @@ data = [["De Eso No Se Habla", "8 Temporadas", "5", "Documental", "En este podca
         ["Filosofía Aplicada", "5 Temporadas", "4", "Filosofía", "Podcast en el que aprenderemos a utilizar a la filosofía como una herramienta para mejorar nuestra vida."],
         ["La Escóbula De La Brújula", "12 Temporadas", "5", "Historia", "Una reunión semanal de amigos con curiosidad sobre Historia, cultura y leyendas. "],
         ["La Senda De Las Plantas Perdidas", "7 Temporadas", "5", "Naturaleza", "Un podcast etnobotánico sobre nuestras historias de amor (y desamor) con el reino vegetal, contadas de viva voz por Aina S. Erice."],
-        ["Mientras Respires Estás a Tiempo", "5 Temporadas", "4", "Charlemos un ratito!! Este será nuestro espacio íntimo y sagrado donde nuestros cerebros y corazones se conecten."],
+        ["Mientras Respires Estás a Tiempo", "5 Temporadas", "4", "Superación Personal", "Charlemos un ratito!! Este será nuestro espacio íntimo y sagrado donde nuestros cerebros y corazones se conecten."],
         ["Todopoderosos", "8 Temporadas", "5", "TV & Film", "Cine, libros, series, cómics. Con Arturo González-Campos, Rodrigo Cortés, Javier Cansado y Juan Gómez-Jurado. Un programa para unirlos a todos."]   
 ]
