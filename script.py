@@ -117,3 +117,5 @@ def select_rating():
 # Inicia el programa
 start_recomendation()
 select_option()
+
+# Comentario inutil para curso git
