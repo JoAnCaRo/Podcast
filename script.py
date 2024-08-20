@@ -119,5 +119,3 @@ start_recomendation()
 select_option()
 
 # Comentario inutil para curso git
-
-un tercer comentario absurdo
